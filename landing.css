@@ -1,0 +1,50 @@
+/* styles.css */
+
+/* Reset default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set default font family and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Header styles */
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* List styles */
+ul {
+    list-style-type: none;
+}
+
+/* List item styles */
+li {
+    margin-bottom: 5px;
+}
+
+/* Responsive design */
+@media only screen and (max-width: 600px) {
+    header, section, footer {
+        padding: 10px;
+    }
+}
